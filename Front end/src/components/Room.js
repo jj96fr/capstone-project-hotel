@@ -32,8 +32,7 @@ const Room = ({ room }) => {
       <div className='text-accent'>
         <BsPeople className='text-[18px]' />
       </div>
-      <div className='flex gap-x-1'>
-        <div>Max People</div>
+      <div className='flex gap-x-1'><div>Max People</div>
         <div>{maxPerson}</div>
       </div>
       </div>
